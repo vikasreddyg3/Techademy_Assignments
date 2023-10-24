@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-17T14:51:18 IST" name="Suite" finished-at="2023-10-17T14:52:01 IST" duration-ms="42492">
+    <groups>
+    </groups>
+    <test started-at="2023-10-17T14:51:18 IST" name="Launch The Make MyTrio URl select From and To location" finished-at="2023-10-17T14:51:35 IST" duration-ms="17096">
+      <class name="Problem3_Assignment.Make_My_Trip">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:Problem3_Assignment.Make_My_Trip@37d4349f]" started-at="2023-10-17T14:51:18 IST" name="preCondition" finished-at="2023-10-17T14:51:32 IST" duration-ms="14247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="makeMyTripFireFox()[pri:0, instance:Problem3_Assignment.Make_My_Trip@37d4349f]" started-at="2023-10-17T14:51:32 IST" name="makeMyTripFireFox" finished-at="2023-10-17T14:51:35 IST" duration-ms="2784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeMyTripFireFox -->
+      </class> <!-- Problem3_Assignment.Make_My_Trip -->
+    </test> <!-- Launch The Make MyTrio URl select From and To location -->
+    <test started-at="2023-10-17T14:51:35 IST" name="LaunchTheMakeMyTripURland Check Logo" finished-at="2023-10-17T14:52:01 IST" duration-ms="25362">
+      <class name="Problem3_Assignment.Make_My_Trip_FromAndTo">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:Problem3_Assignment.Make_My_Trip_FromAndTo@6c1a5b54]" started-at="2023-10-17T14:51:35 IST" name="preCondition" finished-at="2023-10-17T14:51:42 IST" duration-ms="7108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="makeMyTripFromAndToSelect()[pri:0, instance:Problem3_Assignment.Make_My_Trip_FromAndTo@6c1a5b54]" started-at="2023-10-17T14:51:42 IST" name="makeMyTripFromAndToSelect" finished-at="2023-10-17T14:52:01 IST" duration-ms="18251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeMyTripFromAndToSelect -->
+      </class> <!-- Problem3_Assignment.Make_My_Trip_FromAndTo -->
+    </test> <!-- LaunchTheMakeMyTripURland Check Logo -->
+  </suite> <!-- Suite -->
+</testng-results>
